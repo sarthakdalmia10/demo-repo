@@ -5,3 +5,5 @@ metadata:
 spec:
   interval: 30m
   url: https://charts.bitnami.com/bitnami
+  secretRef: 
+    name: helm-secret
