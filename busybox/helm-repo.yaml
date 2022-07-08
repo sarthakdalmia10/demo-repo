@@ -2,7 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: HelmRepository
 metadata:
   name: my-helm-repo
-  namespace: git-helm-config
+  namespace: git-helm-config-new
 spec:
   interval: 1m
   url: https://sarthakdalmia10.github.io/helmrepo/
